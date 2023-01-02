@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    align-items: center;
+    border-bottom: 5px solid #CF7C49;
+}
+/* titre logo home decor */
+nav h1{
+    color:#CF7C49;
+    font-family:"unbounded", sans-serif;
+    font-size: 30px;
+    margin-left: 102px;
+}
+/* list touch */
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 0px;
+
+}
+nav .onglets a{
+    text-decoration: none;
+    color:#CF7C49;
+    
+    margin-left: 4cm;
+    border-bottom: 1px solid #CF7C49;
+    font-family:"Montserrat";
+    font-size: medium;
+}
+/* image fond */
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:#FFF6EE ;
+   
+    color: #70462d;
+    padding: 50px;
+    
+}
+/* titre sur l'image */
+
+header h1{
+    font-family:"unbounded", sans-serif;
+    color:#CF7C49;
+    font-size: 35px;
+
+}
+/* les meilleur dans leur domaines */
+
+header h4{
+    margin-top: -10px;
+    font-family:"Montserrat";
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+/* boutton Visitez notre gallerie */
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #CF7C49;
+    border: none;
+    font-size: x-large;
+    font-family:"Montserrat";
+    outline:#CF7C49;
+    cursor:pointer;
+}
+
+/* logo sur nav bar */
+.logo{
+    position: absolute;
+    height: auto;
+    left: -5px;
+    width: 100px;
+}
+@media screen and (max-width:300px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+/* A propos de  */
+section.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background: url('Images/fond decran.jpg') center no-repeat;
+background-size: cover;
+    padding:200px;
+    margin-top: 0cm;   
+}
+/* Titre a propos de  */
+section.main  h1{
+    padding: 7px 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: -1cm;
+    font-family:"Montserrat";
+    font-size: 20px;
+    color: #CF7C49;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+
+}
+/* Paragraphe A propos de  */
+section.main p{
+    padding:5px 10px ;
+    margin-top: 2cm;
+    margin-bottom: 5cm;
+    font-family:"Montserrat";
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+
+}
+/* services */
+.services{
+    display:flex;
+    flex-direction: column;
+    color: black;
+    background: url('Images/Photo\ services.jpg') center no-repeat;
+background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+
+}
+/* Titre nos services */
+.services h1{
+
+    margin-top: 6cm;
+    font-family:"Montserrat";
+    text-align:left;
+    margin-left: 4cm;
+    
+    
+   
+}
+/* List de nos services */
+.services .list > a{
+    display: flex;
+    flex-direction:column;
+    text-decoration:dotted;
+    text-align:left;
+    color:#ffffff; 
+    margin-left: 4cm;
+    margin-right: 20cm;
+    font-family:"Montserrat";
+    font-size: medium;
+    background-color: rgba(180, 115, 102, 0.6);
+    padding:5px 1px ;
+   
+}
+
+/*  Notre aquipe */
+.equipe h1{
+    text-align: center;
+    background-color: #CF7C49;
+    font-family:"unbounded", sans-serif;
+    font-size: medium;
+    color:#fff  
+    
+}
+/* Images Notre equipe */
+.equipe .team > img{
+    margin-left: 2cm;
+    float: left;
+    width: 25%;
+    padding: 5px;
+    background-color: #CF7C49;
+    border-radius: 100%;
+    
+    
+}
+/* Description a coté de l'image */
+.texteimage1{
+    padding: 2px;
+    margin-left: 2px;
+    font-family:"Montserrat";
+}
+.equipe::after{
+    clear: both;
+    display: table;
+}
+/* footer contact */
+
+footer .contact{
+    background-color: #CF7C49;
+    font-family: "unbounded",sans-serif;
+    
+    text-align: center;
+     
+}
+/* comment nous contacter */
+footer .contact h1{
+    font-family: "unbounded",sans-serif;
+    font-size: 30px;
+    text-align: center; 
+}
+/* message premier tableau contact */
+footer .contact p{
+    background: #FFD9D9;
+font-family: Montserrat, "sans-serif";
+display: flex;
+justify-content: center;
+color: #303030;
+}
+
+.contactez-nous {
+width: 700px;
+border: 1px solid;
+border-radius: 8px;
+padding: 0 50px 0 50px;
+background: white;
+}
+
+.contactez-nous > h1 {
+font-weight: 500;
+}
+
+.contactez-nous > p {
+font-weight: 300;
+}
+
+form div {
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 83px;
+margin-top: 25px;
+}
+
+form div > label {
+margin-bottom: 7px;
+font-weight: 600;
+}
+
+form div > input, form div > select, form div > textarea {
+background: #FFD9D9;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+font-family: Montserrat, "sans-serif";
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+form div > input, form div > select {
+height: 50px;
+padding-left: 10px;
+}
+
+form div > select {
+
+background:#FFD9D9
+
+}
+
+form div > textarea {
+height: 195px;
+padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder, form div > textarea::placeholder {
+color:#CF7C49;
+}
+
+form div > select:invalid {
+color:#CF7C49;
+}
+
+form div > select option {
+background:#CF7C49;
+color: #303030;
+}
+
+form div:last-child {
+align-items:center;
+margin-top: 20px;
+}
+
+form button {
+width: 450px;
+max-width: 600px;
+height: 60px;
+font-weight: 700;
+font-size: 28px;
+background: white;
+border: rgba(48, 48, 48, 0.5) solid 1px;
+border-radius: 5px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+color: #303030;
+}
+.contact h2{
+   
+    font-size: 18px;
+    margin-bottom: -1.1cm;
+}
+
+@media screen and (max-width:280px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+    
